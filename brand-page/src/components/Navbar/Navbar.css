@@ -1,0 +1,28 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    height: 72px;
+    margin: 0 auto;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+button{
+    all:unset;
+    padding: 6px 16px;
+    background: var(--red);
+    height: 32px;
+    color: white;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.logo img {
+    margin-top: 20px;
+}
+
+
